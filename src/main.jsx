@@ -7,6 +7,7 @@ import UpdateButton from './button.jsx';
 import UserList from './useAction.jsx';
 import InputText from './input.jsx';
 import ParentComponent from './ref.jsx';
+import App from "./context.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
     {/* <UpdateButton /> */}
     {/* <UserList /> */}
     {/* <InputText /> */}
-    <ParentComponent />
+    {/* <ParentComponent /> */}
+    <App />
   </StrictMode>,
 )
