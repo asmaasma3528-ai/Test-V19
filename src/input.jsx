@@ -6,14 +6,6 @@ export default function InputText(){
     return (
         <div>
             <input 
-            style = {{
-            textAlign:"center",
-            padding:"0.7rem",
-            backgroundColor:"coral",
-            color:"#fff",
-            fontWeight:"bolder",
-            borderRadius:"10px"
-        }}
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
